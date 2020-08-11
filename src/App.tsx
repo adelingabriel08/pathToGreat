@@ -3,7 +3,6 @@ import "./App.css";
 import { TagAccessLogo } from "@tag/tag-components-react-v2";
 import { FormComponent } from "./Components/Form";
 import { Container } from "react-bootstrap";
-import { ParentComponent } from "./Components/Parent";
 
 function App() {
   return (

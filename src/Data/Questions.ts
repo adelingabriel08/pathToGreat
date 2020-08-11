@@ -1,6 +1,6 @@
 import { QuestionModel } from "../Models/QuestionModel";
 
-export const Questions: QuestionModel[] = [
+export const Questions: any[] = [
   {
     title: "q1-title",
   },

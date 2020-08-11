@@ -1,4 +1,7 @@
 export type QuestionModel = {
   title: string;
-  dropdown?: { label: string; value: number }[];
+  description: string;
+  vPositive: string;
+  positive: string;
+  negative: string;
 };
