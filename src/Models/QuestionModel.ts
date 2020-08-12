@@ -1,4 +1,5 @@
 export type QuestionModel = {
+  id: string;
   type: "Engagement" | "Performance";
   sectionTitle: string;
   sectionDescription: string;

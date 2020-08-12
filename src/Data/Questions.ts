@@ -2,6 +2,7 @@ import { QuestionModel } from "../Models/QuestionModel";
 
 export const Questions: QuestionModel[] = [
   {
+    id: "0",
     type: "Engagement",
     sectionTitle: "Curiosity",
     sectionDescription:
@@ -13,6 +14,7 @@ export const Questions: QuestionModel[] = [
     negative: "Disengaged, imposing own opinions",
   },
   {
+    id: "1",
     type: "Engagement",
     sectionTitle: "Curiosity",
     sectionDescription:
@@ -24,6 +26,7 @@ export const Questions: QuestionModel[] = [
     negative: "Happy with how things done for ease",
   },
   {
+    id: "2",
     type: "Engagement",
     sectionTitle: "Resilience",
     sectionDescription:
@@ -35,17 +38,19 @@ export const Questions: QuestionModel[] = [
     negative: "Burys head in the sand, refuses to accept changes",
   },
   {
+    id: "3",
     type: "Engagement",
-    sectionTitle: "Resilience",
-    sectionDescription:
-      "Ability to bounce back from setbacks or overcome barriers",
-    title: "Deals with change",
+    sectionTitle: "Flexibility",
+    sectionDescription: "Ability to be flexible and adapt, constantly evolving",
+    title: "Change",
     vPositive:
-      "Knows how to manage themselves through a period of change and acts on it ",
-    positive: "Healthy response to change (inc. positive challenge) ",
-    negative: "Burys head in the sand, refuses to accept changes",
+      "Asks to be involved in new things, makes change happen, sees change as an opportunity",
+    positive:
+      "Open to change, welcomes different thinking, adapts to new situations",
+    negative: "Focusses on downside of change, digs heals in to keep the past",
   },
   {
+    id: "4",
     type: "Engagement",
     sectionTitle: "Relating",
     sectionDescription:
