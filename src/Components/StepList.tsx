@@ -1,11 +1,14 @@
 import React from "react";
 import { TagText, TagList } from "@tag/tag-components-react-v2";
+import { QuestionResultModel } from "../Models/QuestionResultModel";
 
 type ListProps = {
+  id: string;
   title: string;
   vPositive: string;
   positive: string;
   negative: string;
+  setResult: (e: QuestionResultModel) => void;
 };
 export const StepListComponent = (props: ListProps) => {
   return (
@@ -22,6 +25,12 @@ export const StepListComponent = (props: ListProps) => {
         leftIconAccentField="accent"
         primaryFieldStyle={{ fontWeight: "normal" }}
         secondaryField="description"
+        onListItemSelected={(selected) =>
+          props.setResult({
+            id: props.id,
+            result: selected.detail.item.description,
+          })
+        }
         data={[
           {
             title: props.vPositive,
