@@ -13,7 +13,7 @@ export const StepListComponent = (props: ListProps) => {
       <TagText
         text={props.title}
         type="h5"
-        style={{ marginBottom: "10px", marginTop: "30px" }}
+        style={{ marginBottom: "10px", marginTop: "20px" }}
       />
       <TagList
         primaryField="title"

@@ -38,7 +38,7 @@ export const FormComponent = () => {
         label="Please add examples from the last 6 month that would highlight your current mapping"
         placeholder="Your opinion"
         editor="multilinetextbox"
-        rows={4}
+        rows={3}
       />
     </TagWizardStep>
   ));
