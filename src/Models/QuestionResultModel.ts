@@ -1,5 +1,5 @@
 export type QuestionResultModel = {
-  id: string;
+  id: number;
   result: string;
   argument?: string;
 };

@@ -7,10 +7,8 @@ import { Container } from "react-bootstrap";
 function App() {
   return (
     <React.Fragment>
-      <Container className="d-flex flex-column">
-        <TagAccessLogo name height="30px" className="m-3" />
-        <FormComponent />
-      </Container>
+      <TagAccessLogo name height="30px" className="m-3" />
+      <FormComponent />
     </React.Fragment>
   );
 }

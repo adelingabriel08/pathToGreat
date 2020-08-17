@@ -1,10 +1,7 @@
 export type QuestionModel = {
-  id: string;
-  type: "Engagement" | "Performance";
-  sectionTitle: string;
-  sectionDescription: string;
+  id: number;
+  category: string;
+  categoryDescription: string;
   title: string;
-  vPositive: string;
-  positive: string;
-  negative: string;
+  answers: string[];
 };
